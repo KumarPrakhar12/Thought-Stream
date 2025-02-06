@@ -2,6 +2,7 @@ import Image from "../components/Image";
 import { Link } from "react-router-dom";
 import PostMenuActions from "../components/PostMenuActions";
 import Search from "../components/Search";
+import Comments from "../components/Comments";
 const SinglePostPage = () => {
   return (
     <div className="flex flex-col gap-8">
@@ -88,7 +89,7 @@ const SinglePostPage = () => {
           <Search />
         </div>
       </div>
-      
+      <Comments></Comments>
     </div>
   )
 }
